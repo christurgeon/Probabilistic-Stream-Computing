@@ -1,0 +1,33 @@
+{
+    "eos_token" : -1,
+    "master" : {
+            "ipaddr"    : "127.0.0.1",
+            "port"      : 5501
+    },
+    "nodes" : [
+        {
+            "id"        : 1,
+            "targets"   : [2, 3],
+            "ipaddr"    : "127.0.0.1", 
+            "port"      : 5502
+        }, 
+        {
+            "id"        : 2,
+            "targets"   : [4],
+            "ipaddr"    : "127.0.0.1", 
+            "port"      : 5503
+        },
+        {
+            "id"        : 3,
+            "targets"   : [4],
+            "ipaddr"    : "127.0.0.1", 
+            "port"      : 5504
+        },
+        {
+            "id"        : 4,
+            "targets"   : [],
+            "ipaddr"    : "127.0.0.1", 
+            "port"      : 5506
+        }
+    ]
+}
