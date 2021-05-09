@@ -14,3 +14,6 @@ In the example, 100 values from a distribution are yielded to nodes 2 and 3, whi
 
 In practice, the stream can be used to run multiple trials in parallel for a probabilistic program or split up distribution yielding and sampling. Also, the user may utilize probabilistic programming methods from our library or write their own to use with the stream computing engine. 
 
+## Authors 
+
+Chris Turgeon and Daniel Tabin
